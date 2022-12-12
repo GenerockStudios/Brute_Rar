@@ -1,0 +1,95 @@
+﻿<Window x:Class="BruteRar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BruteRar"
+        mc:Ignorable="d"
+        Title="" Height="480" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" Width="520">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="24" FontFamily="Cambria" FontWeight="Bold" Foreground="DarkBlue" Width="350">Brute Rar - By General Erock</Label>
+            <Button x:Name="Mask" Margin="50 0 0 0" Click="Mask_Click"  FontSize="25" Foreground="DarkBlue"  Background="White" Width="50">-</Button>
+
+            <Button x:Name="Help" FontSize="25" Click="Help_Click" Foreground="DarkBlue"  Background="White" Width="50">?</Button>
+        </StackPanel>
+
+        <Label FontSize="18">Sélectionner un fichier à extraire</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <TextBox Width="450" x:Name="Path_File" Background="WhiteSmoke" IsEnabled="False"></TextBox>
+            <Button Height="25" Width="25" x:Name="Btn_Path_File" Click="Btn_Path_File_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/BruteRar;component/file.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Label FontSize="18">Sélectionner le Dossier de destination</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <TextBox Width="450" x:Name="Path_Folder" Background="WhiteSmoke" IsEnabled="False"></TextBox>
+            <Button Height="25" Width="25" x:Name="Btn_Path_Folder" Click="Btn_Path_Folder_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/BruteRar;component/folder.jfif"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Label FontSize="18">Mode de génération des mots de passes</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <ComboBox x:Name="Mode" SelectedIndex="0" Width="190" Margin="250 0 0 0" SelectionChanged="Mode_SelectionChanged">
+                <ComboBoxItem Content="Lettres (Min)"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Maj)"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Maj + Min)"></ComboBoxItem>
+                <ComboBoxItem Content="Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Min) + Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Maj) + Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Min) + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Maj) + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Min) + Chiffres + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres (Maj) + Chiffres + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Chiffres + Caractères Spéciaux"></ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Label FontSize="18">Intervalle de caractères</Label>
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="18">De</Label>
+            <TextBox Width="100" x:Name="Intervalle_De" TextAlignment="Center" Text="3" Background="WhiteSmoke" FontSize="18"  Margin="15 0 0 0" TextChanged="Intervalle_De_TextChanged"></TextBox>
+            <Label FontSize="18">à</Label>
+            <TextBox Width="100" x:Name="Intervalle_A" Text="4" Background="WhiteSmoke" TextAlignment="Center" FontSize="18" TextChanged="Intervalle_A_TextChanged"></TextBox>
+            <Label FontSize="18">=</Label>
+            <TextBox Width="200" x:Name="Intervalle_Resultat" Background="WhiteSmoke" IsEnabled="False" FontSize="18"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="15 30 0 0">
+            <Button Foreground="White" FontSize="18" x:Name="Demarrer" Click="Demarrer_Click" Width="200" Height="50" Content="Démarrer">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF00C90C" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Foreground="White" FontSize="18" x:Name="Pause" Content="Pause" Click="Pause_Click" Margin="15 0 0 0" Width="100" Height="50">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFC99900" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Foreground="White" FontSize="18" x:Name="Reprendre" Click="Reprendre_Click" Content="Reprendre" Margin="15 0 0 0" Width="100" Height="50">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF0038C9" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+        <TextBlock x:Name="Log" FontSize="16"  Margin="15 45 0 0" Foreground="PaleVioletRed"/>
+        <ProgressBar x:Name="Progression" Width="500" Height="10"></ProgressBar>
+
+    </StackPanel>
+</Window>

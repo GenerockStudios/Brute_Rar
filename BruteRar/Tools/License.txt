@@ -1,0 +1,51 @@
+CONTRAT DE LICENCE UTILISATEUR FINAL
+________________________________________
+Le contrat suivant relatif à l'archiveur RAR (et à sa version Windows - WinRAR - le « logiciel ») est conclu entre win.rar GmbH (le « concédant ») et toute personne (l'« utilisateur ») installant, accédant ou utilisant le logiciel.
+1.	L'auteur et le titulaire du droit d'auteur du logiciel est Alexander L. Roshal. Le concédant, en tant qu'émetteur de la licence et détenteur de droits internationaux d'utilisation exclusifs, y compris les droits de reproduire, distribuer et mettre le logiciel à la disposition du public sous quelque forme que ce soit est win.rar GmbH, Marienstr. 12, 10117 Berlin, Allemagne.
+
+2.	Le logiciel est distribué sous forme de version de démonstration. Cela signifie que vous pouvez utiliser le logiciel pendant une période d'essai d'une durée maximale de 40 jours sans frais. Après cette période d'essai, l'utilisateur doit acheter une licence pour continuer à utiliser le logiciel.
+
+3.	La version d'essai du logiciel peut-être distribuée gratuitement, avec les notifications ci-dessous, si le package de distribution n'est pas modifié d'une manière ou d'une autre. 
+a.	Aucune personne n'est habilitée à distribuer des éléments du package WinRAR, exception faite de l'utilitaire UnRAR, sans autorisation écrite.
+
+b.	La version d'essai non-enregistrée du logiciel ne peut pas être distribuée dans le package d'un autre logiciel sans autorisation écrite. Le fichier d'installation du logiciel proposé au téléchargement doit rester en l'état d'origine, sans que l'utilisateur ne soit contraint à un quelconque paiement et sans communiquer de données personnelles.
+
+c.	Le fichier d'installation de WinRAR doit être fourni en l'état d'origine, sans aucune modification. Les offres groupées ne sont pas autorisées. L'utilisation de tout logiciel d'installation ou de téléchargement proposant d'installer des logiciels tiers est interdite sauf dans le cadre d'un accord écrit avec win.rar GmbH.
+
+d.	Les cracks, clés ou générateurs de clés ne doivent en aucun cas être inclus ou mentionnés par le distributeur de la version d'essai.
+
+e.	En cas de non-respect des conditions précédentes, l'autorisation est automatiquement et immédiatement révoquée.
+
+4.	La version d'essai du logiciel peut afficher un rappel d'enregistrement. Selon la version du logiciel et la configuration, cette boîte de dialogue peut contenir du texte chargé localement ou une page Web chargée depuis Internet. Cette page Web peut contenir des instructions pour l'achat d'une licence ou d'autres données sélectionnées par le concédant, notamment de la publicité. Lors de l'ouverture d'une page Web, le logiciel transfère uniquement les paramètres nécessaires au protocole HTTP pour ouvrir la page Web dans le navigateur.
+
+5.	Le logiciel est distribué en l'état. Aucune garantie d'aucune sorte, n'est exprimée ou impliquée. Vous l'utilisez à votre propre risque. Ni l'auteur, ni le concédant, ni les agents ne seront tenus pour responsables en cas de dommages, de pertes de données, de perte de bénéfice ou d'autres pertes lors de l'utilisation ou lors de l'utilisation inappropriée de ce logiciel.
+
+6.	Il existe 2 types de licences élémentaires délivrées pour le logiciel. Il s'agit des licences suivantes : 
+a.	Une licence d'utilisation pour un ordinateur. L'utilisateur achète une licence pour utiliser le logiciel sur un seul ordinateur.
+
+Les utilisateurs dans un cadre professionnel nécessitent une licence par ordinateur ou terminal mobile sur lequel le logiciel est installé.
+
+Les particuliers peuvent utiliser leur licence sur tous les ordinateurs et périphériques amovibles (disques USB, disques durs externes, etc.) leur appartenant.
+
+b.	Licence pour plusieurs utilisateurs. L'utilisateur achète un certain nombre de licences utilisateur pour qu'elles soient utilisées par lui-même ou par ses employés sur le même nombre d'ordinateurs.
+
+Dans un environnement réseau (serveur/client), l'utilisateur doit acheter une licence par client (poste de travail) sur lequel le logiciel est installé ou utilisé. Une licence distincte est requise pour chaque client (poste de travail), peu importe que les clients (postes de travail) utilisent le logiciel simultanément ou à un moment différent. Si, par exemple, vous souhaitez que 9 clients (postes de travail) de votre réseau accèdent au logiciel, vous devez acheter 9 licences.
+
+Tout utilisateur ayant acheté une licence dispose du droit non exclusif d'utiliser le logiciel sur autant d'ordinateurs que défini dans les conditions d'attribution de licence précédentes.
+
+7.	Hormis le coût de la licence, aucun frais supplémentaires ne sont facturés dans le cadre de la création et de la distribution d'archives RAR, de volumes, d'archives ou de volumes auto-extractibles. Les détenteurs d'une licence peuvent utiliser leurs copies du logiciel pour produire des archives et des archives auto-extractibles et pour distribuer ces archives sans frais supplémentaires.
+
+8.	Le logiciel sous licence ne peut pas être loué mais peut être transféré dans son intégralité, si le destinataire accepte les conditions générales de cette licence.
+
+9.	Pour acheter une licence, consultez le fichier order.htm fourni avec le logiciel pour plus de détails.
+
+10.	Vous ne pouvez pas utiliser, copier, émuler, louer, vendre, modifier, décompiler, désassembler, faire de l'ingénierie inverse, transférer le logiciel sous licence ou n'importe quel sous-ensemble du logiciel sous licence, à l'exception de ce qui est prévu dans cet accord. Toute utilisation non autorisée entraînera le retrait immédiat et automatique de cette licence voire de poursuites judiciaires.
+
+Le code binaire source de RAR, de WinRAR et d'UnRAR ainsi qu'UnRAR ne peuvent être utilisés pour faire de l'ingénierie inverse pour recréer l'algorithme de compression RAR lequel possède des droits de propriété, sans autorisation écrite.
+
+Le logiciel peut utiliser des composants développés et/ou protégées par les droits d'auteur de tiers. Pour plus de détails, reportez-vous à la rubrique « Remerciements » du fichier d'aide de WinRAR ou au fichier acknow.txt pour les autres versions RAR.
+
+11.	Le présent Accord de licence est interprété uniquement et exclusivement en vertu du droit allemand. Si vous êtes un commerçant, les tribunaux du siège de win.rar GmbH à Berlin/Allemagne auront la juridiction exclusive pour tous les litiges découlant du présent Contrat de licence ou de sa validité.
+
+12.	L'installation et l'utilisation du logiciel entraîne l'acceptation des conditions générales de la présente licence. Si vous n'adhérez pas aux conditions générales de cette licence vous devez supprimer les fichiers du logiciel de vos périphériques de stockage et cesser de l'utiliser.
+

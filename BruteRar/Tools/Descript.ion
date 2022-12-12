@@ -1,0 +1,36 @@
+7zxa.dll                Bibliothèque de décompression 7z
+Default.SFX          Module SFX GUI RAR
+Default64.SFX        interface graphique 64 bit pour module RAR SFX
+Descript.ion          Description des fichiers
+File_Id.diz            Courte description
+License.txt           Licence pour l'utilisation et la distribution
+Order.htm            Informations d'enregistrement
+Rar.exe                Console RAR
+Rar.txt                  Manuel de la console RAR
+RarLng.dll             Ressources des langues
+RarExt.dll              Extension de l'environnement WinRAR
+RarExt32.dll         extension d'environnement WinRAR pour Windows x86
+RarExt64.dll         extension d'environnement WinRAR pour Windows x64
+RarExtInstaller.exe  Outil d'installation et de désinstallation de l'extension d'environnement WinRAR.
+RarExtLogo.altform-unplated_targetsize-32.png Image pour extension d'environnement WinRAR
+RarExtLogo.altform-unplated_targetsize-48.png Image pour extension d'environnement WinRAR
+RarExtLogo.altform-unplated_targetsize-64.png Image pour extension d'environnement WinRAR
+RarExtLogo_Default.altform-unplated_targetsize-32.png Image pour extension d'environnement WinRAR
+RarExtLogo_Default.altform-unplated_targetsize-48.png Image pour extension d'environnement WinRAR
+RarExtLogo_Default.altform-unplated_targetsize-64.png Image pour extension d'environnement WinRAR
+RarExtPackage.msix   Package supplémentaire pour l'extension d'environnement WinRAR.
+RarFiles.lst            Ordre de tri pour les archives "Solide"
+RarNew.dat           Nouveau modèle d'archive RAR.
+ReadMe.txt           Aperçu rapide de WinRAR
+Resources.pri        Fichier supplémentaire pour extension d'environnement WinRAR
+Uninstall.exe         Programme de désinstallation
+Uninstall.lst           Liste des fichiers à désinstaller
+UnRAR.exe            Utilitaire freeware pour extraire les archives RAR
+WhatsNew.txt       Nouveautés de cette version
+WinCon.SFX           Module SFX pour la console RAR
+WinCon64.SFX         Module SFX de la console RAR 64 bit
+WinRAR.exe           WinRAR
+WinRAR.chm           Fichier d'aide de WinRAR
+Zip.SFX                   Module SFX GUI ZIP
+Zip64.SFX            Module SFX 64 bit interface ZIP
+ZipNew.dat           Nouveau modèle d'archive ZIP

@@ -1,0 +1,89 @@
+﻿<Window x:Class="Brute_Rar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Brute_Rar"
+        mc:Ignorable="d"
+        Title="Brute Rar" Height="450" WindowStyle="None" ResizeMode="NoResize" Width="500">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="24" FontFamily="Cambria" FontWeight="Bold" Foreground="DarkBlue" Width="450">Brute Rar - By General Erock</Label>
+            <Button x:Name="Close" FontSize="25" Foreground="White" Click="Close_Click" MouseEnter="Close_MouseEnter" MouseLeave="Close_MouseLeave" Background="PaleVioletRed" Width="50">X</Button>
+        </StackPanel>
+
+        <Label FontSize="18">Sélectionner un fichier à extraire</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <TextBox Width="450" x:Name="Path_File" Background="WhiteSmoke" IsEnabled="False"></TextBox>
+            <Button Height="25" Width="25" x:Name="Btn_Path_File" Click="Btn_Path_File_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Brute_Rar;component/file.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Label FontSize="18">Sélectionner le Dossier de destination</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <TextBox Width="450" x:Name="Path_Folder" Background="WhiteSmoke" IsEnabled="False"></TextBox>
+            <Button Height="25" Width="25" x:Name="Btn_Path_Folder" Click="Btn_Path_Folder_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Brute_Rar;component/folder.jfif"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <Label FontSize="18">Nom du Fichier</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <TextBox Width="450" x:Name="Name_File" Height="25" Background="WhiteSmoke"></TextBox>
+        </StackPanel>
+        <Label FontSize="18">Mode de génération des mots de passes</Label>
+        <StackPanel Orientation="Horizontal" Margin="15 0 0 0">
+            <ComboBox x:Name="Mode" Width="90" Margin="250 0 0 0" SelectionChanged="Mode_SelectionChanged">
+                <ComboBoxItem Content="Lettres"></ComboBoxItem>
+                <ComboBoxItem Content="Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Chiffres"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Caractères Spéciaux"></ComboBoxItem>
+                <ComboBoxItem Content="Lettres + Chiffres + Caractères Spéciaux"></ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Label FontSize="18">Intervalle de caractères</Label>
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="18">De</Label>
+            <TextBox Width="100" x:Name="Intervalle_De" TextAlignment="Center" Text="3" Background="WhiteSmoke" FontSize="18"  Margin="15 0 0 0"></TextBox>
+            <Label FontSize="18">à</Label>
+            <TextBox Width="100" x:Name="Intervalle_A" Text="8" Background="WhiteSmoke" TextAlignment="Center" FontSize="18"></TextBox>
+            <Label FontSize="18">=</Label>
+            <TextBox Width="100" x:Name="Intervalle_Resultat" Background="WhiteSmoke" FontSize="18" TextAlignment="Center"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="15 30 0 0">
+            <Button Foreground="White" FontSize="18" x:Name="Demarrer" Click="Demarrer_Click" Width="200" Height="50" Content="Démarrer">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF00C90C" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Foreground="White" FontSize="18" x:Name="Pause" Content="Pause" Margin="15 0 0 0" Width="100" Height="50">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFC99900" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Foreground="White" FontSize="18" x:Name="Reprendre" Content="Reprendre" Margin="15 0 0 0" Width="100" Height="50">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF0038C9" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+        <TextBlock x:Name="Log" FontSize="16"  Margin="15 0 0 0" Foreground="PaleVioletRed"/>
+        <ProgressBar x:Name="Progression" Width="500" Height="10"></ProgressBar>
+
+    </StackPanel>
+</Window>

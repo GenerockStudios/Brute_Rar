@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BruteRar", "BruteRar\BruteRar.csproj", "{5A8E6259-D364-49C0-A673-34FE5F8B1774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Debug|x64.ActiveCfg = Debug|x64
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Debug|x64.Build.0 = Debug|x64
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Release|x64.ActiveCfg = Release|x64
+		{5A8E6259-D364-49C0-A673-34FE5F8B1774}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A78EDBA-186C-4AA4-8076-880ABDD6A223}
+	EndGlobalSection
+EndGlobal
